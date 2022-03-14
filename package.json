@@ -1,0 +1,18 @@
+{
+  "name": "vitepress-weiblog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "less": "^4.1.2",
+    "vitepress": "^0.22.3",
+    "fs-extra": "^10.0.1",
+    "globby": "^11.1.0",
+    "gray-matter": "^4.0.3"
+  }
+}

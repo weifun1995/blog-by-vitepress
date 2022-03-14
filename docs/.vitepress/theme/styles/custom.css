@@ -1,0 +1,40 @@
+:root {
+  --font-color: #000;
+  --body-bg: #f4f5f5;
+  --container-bg: #fff;
+  --c-divider: rgba(60, 60, 67, 0.12);
+  scroll-behavior: smooth
+}
+
+
+
+.page {
+  margin-left: 0 !important;
+}
+
+.content{
+  padding-right: 5rem;
+}
+
+
+.sidebar {
+  right: 0 !important;
+  left: unset !important;
+  border-left: 1px solid var(--c-divider);
+}
+
+.sidebar-links {
+  padding: 0.5rem 0;
+}
+.sidebar > .sidebar-links > .sidebar-link + .sidebar-link {
+  padding-top: 0;
+}
+.sidebar > .sidebar-links > .sidebar-link > .sidebar-link-item {
+  font-size: 0.875rem;
+  padding: 0.1rem 0 0.1rem 1.2rem;
+}
+.sidebar > .sidebar-links > .sidebar-link > .sidebar-links > .sidebar-link > .sidebar-link-item {
+  font-size: 0.875rem;
+  padding: 0.2rem 1.5rem 0.2rem 2rem;
+}
+
